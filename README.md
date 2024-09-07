@@ -18,7 +18,7 @@ The goal of this project is to recreate the W3Schools platform with a full-stack
 
 - **Frontend**: React, HTML, CSS
 - **Backend**: Django, Django REST Framework
-- **Database**: SQLite / PostgreSQL (or any preferred database)
+- **Database**: SQLite
 - **API**: Django REST API for serving tutorial content and user management
 
 ## Installation
