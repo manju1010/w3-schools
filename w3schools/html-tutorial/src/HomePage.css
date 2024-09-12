@@ -35,4 +35,5 @@ header{
 }
 
 .header-left a:first-child:hover{
-    b
+    background-color: transparent;
+}
