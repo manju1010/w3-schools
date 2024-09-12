@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    padding: 0px 20px;
+    display:flex;
+    align-items: center;
+    background-color: black;
+}
+.w3-school-logo{
+    width: 40px;
+  
+    
+}
+
+.w3-school-logo img{
+    width: 100%;
+   
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.header-left a:hover{
+   background-color: red;
+
+}
+
+.header-left a:first-child:hover{
+    b
