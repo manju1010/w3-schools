@@ -1,16 +1,18 @@
 body{
     margin: 0;
     padding: 0;
-
+    font-family: 'poppins',sans-serif;
+    background-color:  rgb(21, 32, 43);;
 }
 
 header{
     height: 50px;
-    background-color: rgb(255, 255, 255);
+   
     padding: 0px 20px;
     display:flex;
     align-items: center;
-    background-color: black;
+    background-color: rgb(21, 32, 43);
+    color: #ddd;
 }
 .w3-school-logo{
     width: 40px;
@@ -23,17 +25,70 @@ header{
    
 }
 
-.header-left{
+.header-left {
     display: flex;
     align-items: center;
     height: 100%;
 }
+.header-left a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0px 10px;
+    font-size: 16px;
+    font-weight: 450;
+    color: white;
+    text-decoration: none;
+}
 
 .header-left a:hover{
-   background-color: red;
+   background-color: #04AA6D;
 
 }
 
 .header-left a:first-child:hover{
     background-color: transparent;
 }
+
+.toggle-dark-light{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.header-right a{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0px 10px;
+    font-size: 16px;
+    font-weight: 450;
+    color:white;
+    text-decoration: none;
+}
+
+.header-right a:hover{
+    background-color: #fff;
+    border-radius: 50px;
+    align-items: center;
+    visibility: visible; 
+    opacity: 1;     
+
+
+}
+
+
+  
+  
+
+  
+
